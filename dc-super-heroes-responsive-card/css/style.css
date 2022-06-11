@@ -1,0 +1,73 @@
+/* Resetar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container Geral */
+.container {
+  /* border: 3px solid darkgray; */
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  /* border: 3px solid black; */
+  box-shadow: 1px 1px 5px #aaa;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.logo {
+  /* border: 3px solid maroon; */
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  /* border: 3px solid black; */
+  width: 50px;
+  margin-right: 10px;
+}
+
+.info {
+  /* border: 3px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  /* border: 3px solid magenta; */
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.text-2 {
+  /* border: 3px solid greenyellow; */
+  font-size: 10px;
+}
+
+.btn {
+  /* border: 3px solid darkcyan; */
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Section */
+.section {
+  /* border: 3px solid red; */
+  margin-top: 80px;
+}
